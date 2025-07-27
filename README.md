@@ -36,7 +36,7 @@ This project is an end-to-end AI system for scoring, segmenting, and engaging sa
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone "githubrepo"
 cd "githubrepo"
 
@@ -47,12 +47,12 @@ pip install -r requirements.txt
 
 ### 3. Add Google API Key
 Add your Google API key as an environment variable:
-```bash
+
 export GOOGLE_API_KEY='your-api-key'  # For Linux/Mac
 set GOOGLE_API_KEY=your-api-key       # For Windows CMD
 
 ### 4. Running the App
-```bash
+
 streamlit run app.py
 If you're using Colab or Jupyter, you can expose the Streamlit app via Ngrok:
 
